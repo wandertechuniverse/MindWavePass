@@ -108,7 +108,7 @@ To start and use MindWave Pass:
 3.  Run the main script:
 
     ```bash
-    python main.py  # or python mindwave_pass.py
+    python mindwave_pass.py
     ```
 
     (The actual filename may vary; check your repository.)
