@@ -32,7 +32,7 @@ To install MindWave Pass, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/wandertechuniverse/MindWavePass.git](https://github.com/wandertechuniverse/MindWavePass.git)
+    git clone https://github.com/wandertechuniverse/MindWavePass.git
     cd MindWavePass
     ```
 
