@@ -1,4 +1,3 @@
-```
 # MindWave Pass - Your Secure Desktop Password Manager 🔒
 
 MindWave Pass is a user-friendly desktop application designed to securely store and manage your sensitive passwords locally on your computer. Built with Python and Tkinter, it offers a robust solution for organizing your digital credentials and enhancing your online security.
