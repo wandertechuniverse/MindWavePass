@@ -26,7 +26,7 @@ MindWave Pass is a desktop application that securely stores and manages your pas
     
     ```bash
     git clone https://github.com/wandertechuniverse/MindWavePass.git
-    cd MindWave Pass
+    cd MindWavePass
     ```
     
   - Create a virtual environment (recommended):
