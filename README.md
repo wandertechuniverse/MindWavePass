@@ -33,8 +33,7 @@ To install MindWave Pass, follow these steps:
 
    ```bash
    git clone [https://github.com/wandertechuniverse/MindWavePass.git](https://github.com/wandertechuniverse/MindWavePass.git)
-   cd MindWavePass
-```
+   cd MindWavePass```
 
 2. **Create a virtual environment (recommended):**
   
@@ -52,7 +51,7 @@ To install MindWave Pass, follow these steps:
     
     ```
     source venv/bin/activate
-    ```
+   
     
 3. **Install the required packages:**
   
