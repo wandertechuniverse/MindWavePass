@@ -7,7 +7,7 @@ MindWave Pass is a user-friendly desktop application designed to securely store 
 -   **🛡️ Secure Encryption:** Your passwords are encrypted using a strong algorithm, safeguarding them from unauthorized access.
 -   **🔑 Master Password Protection:** Access to your password vault is controlled by a single, secure master password.
 -   **➕ Add, View, Edit, Delete:** Easily manage your credentials with intuitive functions to add new entries, view details, modify existing records, and remove outdated information. Each entry includes fields for website/application, username, password, and a customizable category.
--   **Password Generator:** Create strong, unique passwords with customizable length and character sets (uppercase, lowercase, digits, symbols) to enhance your security posture.
+-   **🔑 Password Generator:** Create strong, unique passwords with customizable length and character sets (uppercase, lowercase, digits, symbols) to enhance your security posture.
 -   **🔍 Powerful Search:** Quickly find the credentials you need by searching through website/app names, usernames, or categories.
 -   **📋 Easy Copy to Clipboard:** Effortlessly copy usernames and passwords to your clipboard for quick pasting into login forms.
 -   **👤 User Authentication:** Ensures that only authorized users with the correct master password can access the stored credentials.
