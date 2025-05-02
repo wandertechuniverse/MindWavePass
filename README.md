@@ -111,8 +111,6 @@ To start and use MindWave Pass:
     python mindwave_pass.py
     ```
 
-    (The actual filename may vary; check your repository.)
-
 4.  Ensure your virtual environment is activated if you created one during installation.
 
 ## 🔒 Important Security Considerations
