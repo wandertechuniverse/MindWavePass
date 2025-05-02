@@ -122,10 +122,12 @@ To start and use MindWave Pass:
 ### MindWave Pass Login Page
 
 Here's a look at the login page of MindWave Pass:
+(https://github.com/wandertechuniverse/MindwavePass/blob/main/MindWass%20Pass%20Login%20Page.png)
 
 ### MindWave Pass Interface
 
 Here's a look at the main interface of MindWave Pass:
+(https://github.com/wandertechuniverse/MindwavePass/blob/main/MindWave%20Pass%20Interface.png)
 
 ## 🔒 Important Security Considerations
 
