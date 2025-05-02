@@ -1,3 +1,4 @@
+```
 # MindWave Pass - Your Secure Desktop Password Manager 🔒
 
 MindWave Pass is a user-friendly desktop application designed to securely store and manage your sensitive passwords locally on your computer. Built with Python and Tkinter, it offers a robust solution for organizing your digital credentials and enhancing your online security.
@@ -30,33 +31,33 @@ Ensure you have the following installed on your machine:
 To install MindWave Pass, follow these steps:
 
 1. **Clone the repository:**
-  
-  ```bash
-  git clone [https://github.com/wandertechuniverse/MindWavePass.git](https://github.com/wandertechuniverse/MindWavePass.git)
-  cd MindWave Pass
-  ```
-  
+
+   ```bash
+   git clone [https://github.com/wandertechuniverse/MindWavePass.git](https://github.com/wandertechuniverse/MindWavePass.git)
+   cd MindWavePass
+```
+
 2. **Create a virtual environment (recommended):**
   
-  ```bash
+  ```
   python -m venv venv
   ```
   
   - **On Windows:**
     
-    ```bash
+    ```
     venv\Scripts\activate
     ```
     
   - **On macOS/Linux:**
     
-    ```bash
+    ```
     source venv/bin/activate
     ```
     
 3. **Install the required packages:**
   
-  ```bash
+  ```
   pip install cryptography
   pip install pyperclip
   ```
@@ -110,7 +111,7 @@ To start and use MindWave Pass:
   
 3. Run the main script:
   
-  ```bash
+  ```
   python mindwave_pass.py
   ```
   
@@ -122,43 +123,50 @@ To start and use MindWave Pass:
 ### MindWave Pass Login Page
 
 Here's a look at the login page of MindWave Pass:
-(https://raw.githubusercontent.com/wandertechuniverse/MindwavePass/refs/heads/main/MindWass%20Pass%20Login%20Page.png)
+
+![MindWave Pass Login Page](https://raw.githubusercontent.com/wandertechuniverse/MindwavePass/refs/heads/main/MindWass%20Pass%20Login%20Page.png)
 
 ### MindWave Pass Interface
 
 Here's a look at the main interface of MindWave Pass:
-(https://raw.githubusercontent.com/wandertechuniverse/MindwavePass/refs/heads/main/MindWave%20Pass%20Interface.png)
+
+![MindWave Pass Interface](https://raw.githubusercontent.com/wandertechuniverse/MindwavePass/refs/heads/main/MindWave%20Pass%20Interface.png)
 
 ## 🔒 Important Security Considerations
 
 - **Master Password is Key:** Your master password is the single point of security for your entire password vault. **Never forget it!** If you lose your master password, you will permanently lose access to your stored credentials as there is no recovery mechanism. Choose a strong, unique password that you don't use elsewhere.
+  
 - **Local Storage Security:** MindWave Pass stores your encrypted data in a local SQLite database file (`mindwave_pass.db`). Ensure that this file is stored in a secure location on your computer with appropriate file system permissions to prevent unauthorized access.
+  
 - **Encryption Strength:** The application leverages the `cryptography` library, a well-regarded and robust cryptographic library, to encrypt your sensitive information using a key derived from your master password.
+  
 - **Clipboard Awareness:** When you copy usernames or passwords to the clipboard, be aware that other applications might potentially access this data. While MindWave Pass aims to minimize the time the data resides on the clipboard, exercise caution, especially on shared or potentially compromised systems. The use of `pyperclip` is recommended for more reliable clipboard interaction.
+  
 - **Strong Password Generation:** The integrated password generator utilizes the `secrets` module in Python, which is designed for generating cryptographically strong random numbers, ensuring the generated passwords are secure.
+  
 
 ## 🛠️ Troubleshooting
 
 - **`ModuleNotFoundError: No module named 'pyperclip'`:**
   
   - This error indicates that the `pyperclip` library is not installed. You can resolve this by installing it using pip:
-  
-  ```bash
-  pip install pyperclip
-  ```
-  
-  If you choose not to install it, the application will fall back to a less feature-rich Tkinter clipboard mechanism.
-  
+    
+    ```
+    pip install pyperclip
+    ```
+    
+  - If you choose not to install it, the application will fall back to a less feature-rich Tkinter clipboard mechanism.
+    
 - **`ModuleNotFoundError: No module named 'cryptography'`:**
   
   - This error means the `cryptography` library is missing. Install it using pip:
-  
-  ```bash
-  pip install cryptography
-  ```
-  
-  This library is essential for the security of MindWave Pass.
-  
+    
+    ```
+    pip install cryptography
+    ```
+    
+  - This library is essential for the security of MindWave Pass.
+    
 
 ## 📜 License
 
@@ -167,19 +175,27 @@ MIT License
 Copyright (c) 2025 MindWave Pass
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
+
 of this software and associated documentation files (the "Software"), to deal
+
 in the Software without restriction, including without limitation the rights
+
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+
 copies of the Software, and to permit persons to whom the Software is
+
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
+
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
